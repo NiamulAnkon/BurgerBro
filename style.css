@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 4vh;
+    background-color: #000;
+    text-align: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: 0.4s ease;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.burger{
+    text-align: center;
+    font-size: 30px;
+    color: #ff0000;
+    margin-top: 30px;
+}
+
+.burger p{
+    background-color: #000;
+}
+
+.burger #burger2{
+    width: 619px;
+}
+
+.footer{
+    width: 100%;
+    height: 3vh;
+    background-color: #000;
+    color: #ff0000;
+    text-align: center;
+}
